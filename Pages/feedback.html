@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <style>
+        body {
+            background-image: url('https://getthematic.com/insights/content/images/wordpress/2018/12/rendered.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: rgba(2, 2, 2, 0.251);
+            width: 50%;
+            padding: 20px;
+            margin: 40px auto;
+            border-radius: 20px;
+        }
+
+        .container .heading {
+            text-align: center;
+            padding: 4px;
+        }
+
+        .container .headcaption {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .container .feedback {
+            display: block;
+            width: 100%;
+            height: 100px;
+            padding: 4px;
+            font-size: 16px;
+        }
+
+        .container .btn {
+            display: block;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            border: 1px solid green;
+            margin: 12px 0px;
+            padding: 5px 10px;
+            border-radius: 11px;
+        }
+
+        .container .btn:hover {
+            background-color: rgba(2, 2, 2, 0.381);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="#" class="active">Feedback</a></li>
+            </ul>
+            <div class="btn"><a href="login.html">login</a></div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="heading">Give us Feedback</h2>
+        <p class="headcaption">Your words means lot to us! plase drop your feedback and feel free to tell us what we can
+            improve!</p>
+        <textarea name="feedback" class="feedback" placeholder="Your Feedback"></textarea>
+        <a href="#" class="btn">Submit</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Styling nav bar */
+
+header nav {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+
+header ul {
+    display: inline-block;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 8px 41px;
+}
+
+header ul li a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 12px;
+}
+
+header ul .active,
+header a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.183);
+    border-radius: 14px;
+}
+
+/* Stylling button */
+header .btn {
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+    right: 23px;
+    display: inline-block;
+}
+
+header .btn a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 11px;
+}

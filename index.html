@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- all css are link with external file -->
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <style>
+        /* header */
+        header {
+            background-image: url('https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg');
+            background-size: cover;
+        }
+
+        /* Universal selecter */
+        * {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* styling heading */
+        header .head {
+            display: block;
+            width: 54%;
+            margin: 0px auto;
+            padding: 270px 40px 21px 40px;
+        }
+
+        header .heading {
+            display: block;
+            text-align: center;
+            color: wheat;
+            background-color: rgba(0, 0, 0, 0.449);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        #heading3 {
+            text-decoration: underline;
+        }
+
+        /* styling container */
+        .container {
+            background-color: rgb(241, 234, 220);
+            padding: 16px 170px;
+        }
+
+        .container .heading {
+            border: 2px solid red;
+            text-align: center;
+            margin: 0px 0px;
+            padding: 8px 3px;
+        }
+
+        .container .box {
+            display: block;
+            margin: 32px auto;
+            padding: 10px 10px;
+            border: 2px solid red;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+
+        .container .data {
+            display: inline;
+            font-family: sans-serif;
+            font-size: 16px;
+            /* border: 2px solid darkblue; */
+        }
+
+        .container img {
+            display: inline;
+            /* border: 2px solid darkblue; */
+            margin: 0;
+            height: 200px;
+        }
+
+        .container .box a {
+            font-size: 18px;
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            border: 1px solid green;
+            padding: 5px 10px;
+            border-radius: 14px;
+        }
+
+        .container .box a:hover {
+            text-decoration: underline;
+            background-color: rgba(0, 0, 0, 0.183);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="Pages/about.html">About us</a></li>
+                <li><a href="Pages/contact.html">Contact us</a></li>
+                <li><a href="Pages/feedback.html">Feedback</a></li>
+            </ul>
+            <div class="btn"><a href="#">login</a></div>
+        </nav>
+
+        <div class="head">
+            <h1 class="heading" id="heading1">Welcome to High Fly Services</h1>
+            <h1 class="heading" id="heading2">Travel and Tourism Agency pvt. Ltd.</h1>
+            <h3 class="heading" id="heading3">Plan your trip Today!</h3>
+        </div>
+    </header>
+    <div class="container">
+        <ol>
+            <h3 class="heading">Places to visit</h3>
+            <div class="box" id="box1">
+                <img src="Images/Paris.jpg" alt="Paris">
+                <div class="data"> <strong>Paris,</strong> France's capital, is a major European city and a global
+                    center for art,
+                    fashion, gastronomy
+                    and
+                    culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond
+                    such
+                    landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known
+                    for its
+                    cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.
+                    <a href="Pages/paris.html">Plan trip to Paris</a>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <img src="Images/Taj-Mahal.jpg">
+                <div class="data"> <strong>Agra</strong> is a city on the banks of the Yamuna river in the Indian state
+                    of Uttar Pradesh,
+                    about 210 km
+                    south of
+                    the national capital New Delhi. With a population of roughly 1.6 million, Agra is the fourth-most
+                    populous
+                    city in Uttar Pradesh and twenty-third most populous city in India.
+                    <a href="Pages/agra.html">Plan trip to Agra</a>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <img src="Images/Singapore.jpg" alt="Singapore">
+                <div class="data"><strong>Singapore,</strong> officially the Republic of Singapore, is a sovereign
+                    island city-state in
+                    maritime
+                    Southeast
+                    Asia.
+                    <a href="Pages/Singapore.html">Plan trip to Singapore</a>
+                </div>
+            </div>
+            <div class="box" id="box4">
+                <img src="Images/kashmir.jpg" alt="Kashmir">
+                <div class="data">
+                    Jammu and Kashmir was a state of India from 1954 to 2019, constituting the southern and
+                    southeastern
+                    portion of the larger Kashmir region, which has been the subject of a dispute between India,
+                    Pakistan
+                    and
+                    China since the mid-20th century.
+                    <a href="Pages/Jammu.html">Plan trip to Jammu and Kashmir</a>
+                </div>
+            </div>
+            <div class="box" id="box5">
+                <img src="Images/Red fort.jpg" alt="Red fort">
+                <div class="data">
+                    The <strong>Red Fort</strong> is a historic fort in the city of Delhi (in Old Delhi) in India that
+                    served as the main residence of the Mughal Emperors. Emperor Shah Jahan commissioned construction of
+                    the Red Fort on 12 May 1638, when he decided to shift his capital from Agra to Delhi. Originally red
+                    and white, its painting is credited to architect Ustad Ahmad Lahori, who also constructed the Taj
+                    Mahal.
+                    <a href="Pages/redfort.html">Plan trip to Red Fort</a>
+                </div>
+            </div>
+        </ol>
+    </div>
+</body>
+
+</html>

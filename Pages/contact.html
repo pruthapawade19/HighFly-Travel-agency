@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: wheat;
+            background-image: url('https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/best-contact-us-pages-760x400.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        body .container {
+            background-color: rgba(2, 2, 2, 0.238);
+            display: block;
+            width: 59%;
+            border-radius: 30px;
+            margin: 42px auto;
+            padding: 20px 170px;
+            font-size: 20px;
+        }
+
+        .container .heading {
+            border: 2px solid red;
+            text-align: center;
+            /* width: fit-content; */
+            margin: auto;
+        }
+
+        .container input {
+            display: block;
+            width: 100%;
+            margin: 10px auto;
+            font-size: 17px;
+            padding: 2px;
+            border-radius: 2px;
+        }
+
+        .container #message {
+            padding: 4px;
+            height: 80px;
+            width: 100%;
+        }
+
+        .container .btn {
+            font-size: 18px;
+            background: none;
+            color: black;
+            text-decoration: none;
+            border: 1px solid green;
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 18px;
+            border-radius: 11px;
+        }
+
+        .container .btn:hover {
+            background-color: rgba(0, 0, 0, 0.231);
+        }
+
+        /* styling footer */
+        footer {
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.333);
+            padding: 10px;
+            margin: 0px 0px 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="#" class="active">Contact us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+            <div class="btn"><a href="login.html">login</a></div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="heading">Contact Us</h1>
+        <form action="#">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="number" id="number" placeholder="Mobile No.">
+            <input type="email" name="email" id="hfds" placeholder="Your mail">
+            <textarea name="Message" id="message" placeholder="Leave your Message"></textarea>
+            <input class="btn" type="reset" value="Reset form">
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <footer>
+        Connect with us on: <br>
+        Email: <a href="mailto:support@highfly.com">support@highfly.com</a> <br>
+        Contact no: <a href="#">8881438593</a>
+    </footer>
+</body>
+
+</html>
